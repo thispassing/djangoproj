@@ -10,6 +10,16 @@
 </head>
 <body>
     <div>
+        <form method="POST">
+        <h2>Log in</h2>
+        <label for="email">Email: </label>
+        <input id="email" type="email" name="useremail" placeholder="ploy@yahoo.co.th" id="" required>
+        <label for="password">Password: </label>
+        <input id="password" type="password" name="password"id="" required>
+        <input type="submit" name="" value="Submit">
+        </form>
+    </div>
+    <div>
         <h1 style="color:blue">Pricing Options</h1>
     </div>
     <div>
@@ -26,30 +36,55 @@
                 <td>Free</td>
             </tr>
             <tr>
-                <td>ชนะเขา</td>
-                <td>60 minutes</td>
-                <td>$1,000</td>
+                <td>แค่ทีปเอง</td>
+                <td>1 minute</td>
+                <td>฿2,000</td>
             </tr>
             <tr>
-                <td>สอนคววมวิธิทำ</td>
-                <td>90 minutes</td>
-                <td>฿100,000</td>
+                <td>ชนะเขา</td>
+                <td>1 hour</td>
+                <td>$1,000</td>
             </tr>
             <tr>
                 <td>ทำร้ายร่างกาย</td>
                 <td>2 hours</td>
+                <td>฿100,000</td>
+            </tr>
+            <tr>
+                <td>สอนคววมวิธิทำ</td>
+                <td>???</td>
                 <td>Negotiable</td>
             </tr>
         </table>
     </div>
     <div>
-        <form method="POST">
-        <h2>Log in</h2>
-        <h3>Please input your E-mail and Password</h3>
-
-        <input type="email" name="useremail" value="Email Here" id="">
-        <input type="password" name="password" value="Password Please" id="">
-        <input type="submit" name="" value="Submit">
+        <h1 style="color:blue">Delivery Request</h1>
+    </div>
+    <div>
+        <form action="https://www.rohwrestling.com/" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="พลอย" required>
+            <br>
+            <label for="address">Address:</label>
+            <input type="text" name="address" id="address" placeholder="Sukhumvit Soi 22" required>
+            <br>
+            <label for="phonenumber">Phone Number:</label>
+            <input type="text" name="phonenumber" id="phonenumber" placeholder="02-132-1888" required>
+            <br>
+            <label for="method">Choose Method:</label>
+            <select name="Method" id="method" required>
+                <option value="ดูแลดี">ดูแลดี</option>
+                <option value="แค่ทีปเอง">แค่ทีปเอง</option>
+                <option value="ชนะเขา">ชนะเขา</option>
+                <option value="ทำร้ายร่างกาย">ทำร้ายร่างกาย</option>
+                <option value="สอนคววมวิธิทำ">สอนคววมวิธิทำ</option>
+                
+            </select>
+            <br>
+            <label for="comments">Special Requests:</label>
+            <input type="text" name="" id="comments" placeholder="Anything" required>
+            <br>
+            <input type="submit" name="" value="Submit">
         </form>
     </div>
     <div>
