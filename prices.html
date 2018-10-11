@@ -13,7 +13,7 @@
         <form method="POST">
         <h2>Log in</h2>
         <label for="email">Email: </label>
-        <input id="email" type="email" name="useremail" placeholder="ploy@yahoo.co.th" id="" required>
+        <input id="email" type="email" name="useremail" placeholder="ploy@yahoo.co.th" required>
         <label for="password">Password: </label>
         <input id="password" type="password" name="password"id="" required>
         <input type="submit" name="" value="Submit">
@@ -58,10 +58,10 @@
         </table>
     </div>
     <div>
-        <h1 style="color:blue">Delivery Request</h1>
+        <h1 style="color:blue">Request</h1>
     </div>
     <div>
-        <form action="https://www.rohwrestling.com/" method="POST">
+        <form method="POST">
             <label for="name">Name:</label>
             <input type="text" name="name" id="name" placeholder="พลอย" required>
             <br>
@@ -77,12 +77,27 @@
                 <option value="แค่ทีปเอง">แค่ทีปเอง</option>
                 <option value="ชนะเขา">ชนะเขา</option>
                 <option value="ทำร้ายร่างกาย">ทำร้ายร่างกาย</option>
-                <option value="สอนคววมวิธิทำ">สอนคววมวิธิทำ</option>
-                
+                <option value="สอนคววมวิธิทำ">สอนคววมวิธิทำ</option> 
             </select>
             <br>
+            <label for="delivery">Delivery</label>
+            <input type="radio" name="shipping" id="delivery" value="delivery" required>
+            <label for="pickup">Pick-up</label>
+            <input type="radio" name="shipping" id="pickup" value="pickup" required>
+            <br>
+            <label for="cash">Cash ($ or ฿)</label>
+            <input type="radio" name="Payment" id="cash" value="cash" required>
+            <label for="kasikorn">Kasikorn Transfer</label>
+            <input type="radio" name="Payment" id="kasikorn" value="kasikorn" required>
+            <label for="btc">BTC</label>
+            <input type="radio" name="Payment" id="btc" value="btc" required>
+            <br>
+            <br>
+            <!-- <p>Special Requests:</p> -->
             <label for="comments">Special Requests:</label>
-            <input type="text" name="" id="comments" placeholder="Anything" required>
+            <br>
+            <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+            <!-- <input type="textarea" name="" id="comments" placeholder="Anything"> -->
             <br>
             <input type="submit" name="" value="Submit">
         </form>
