@@ -1,12 +1,12 @@
 from datetime import datetime as dt 
 
-# now = dt.now()
-# then = dt(1988,5,18,12,56,42)
-# delta = now-then
-# deltadays = delta.days
-# deltadays = "{:,}".format(deltadays)
-# print("It's been",deltadays,"days since I was born.")
-# print(type(delta))
+now = dt.now()
+then = dt(1988,5,18,12,56,42)
+delta = now-then
+deltadays = delta.days
+deltadays = "{:,}".format(deltadays)
+print("It's been",deltadays,"days since I was born.\nxD")
+print(type(delta))
 
 # whenever = dt.strptime("2017-12-31-20-59", "%Y-%m-%d-%H-%M")
 # whenever.strftime("%Y-%m-%d")
