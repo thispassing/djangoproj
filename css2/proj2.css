@@ -1,0 +1,40 @@
+h1{
+    font-family: 'Lobster';
+    text-align: center;
+    margin-bottom: 3%;
+    /* font-size: 0.9em  */
+}
+
+.box{
+    height: 400px;
+    width: 200px;
+    border: 6px solid white;
+}
+
+table{
+    /* align-self: center; */
+    margin: auto;
+}
+
+#b1{
+    /* margin-left: 20%; */
+    background-color: #3E78B2;
+    margin-right: 50px;
+}
+
+#b2{
+    background-color: #004BA8;
+    margin-left: 50px;
+}
+
+#b3{
+    background-color: #4A525A;
+}
+
+#b4{
+    background-color: #24272B;
+}
+
+#b5{
+    background-color: #07070A;
+}
